@@ -3,29 +3,64 @@ table {
     border-collapse: collapse;
 }
 td {
-    height:30px;
-    width:30px;
     border:1px solid;
-    text-align:center;
+    /*padding:10%;*/
 }
 td:first-child {
-    border-left:solid;
+    border-left:solid thick;
 }
 td:nth-child(3n) {
-    border-right:solid ;
+    border-right:solid thick;
 }
 tr:first-child {
-    border-top:solid;
+    border-top:solid thick;
 }
 tr:nth-child(3n) td {
-    border-bottom:solid ;
+    border-bottom:solid thick;
 }
-.selected{
-    background-color: aquamarine;
+.cell{
+    padding: 5px;
 }
+.cell div{
+    border-radius: 25%;
+    /*border: white solid medium;*/
+    height:50px;
+    width:50px;
+    /*margin: 5px;*/
+    text-align:center;
+    vertical-align: middle;
+}
+.cell div span {
+    text-align:center;
+    vertical-align: middle;
+    /*line-height: 0%;*/
+    font-size: 45px;
+    font-stretch: expanded;
+
+}
+
 .valid{
     background-color: greenyellow;
 }
-.solid{
-    font-weight: bold;
+.invalid{
+    background-color: red;
 }
+.possible{
+    background-color: lightgrey;
+}
+.empty{
+    background-color: lightgrey;
+}
+.solid{
+
+}
+.cell div{
+    background-color: white;
+}
+.selected div{
+    background-color: cyan;
+}
+.inaxis div{
+    background-color: lightcyan;
+}
+
