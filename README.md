@@ -1,2 +1,2 @@
 # sudoku
-https://freeformways.github.io/sudoku/
+https://clikcode.github.io/sudoku/
